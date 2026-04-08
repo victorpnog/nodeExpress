@@ -1,17 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Node Express</title>
+    <title>Verificador de Senha</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>OLA MUNDO</h1>
+    <div class="container">
+      <h2>Verificador de Senha</h2>
 
-    <button>teste alerta</button>
-    <script>
-      src = "script.js";
-    </script>
+      <input type="password" id="senha" placeholder="Digite sua senha" />
+      <p id="senhaDigitada"></p>
+
+      <div class="barra">
+        <div id="forca"></div>
+      </div>
+
+      <p id="mensagem"></p>
+    </div>
+    <footer>
+      <p>© 2026 - Victor Pimentel</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
